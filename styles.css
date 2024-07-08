@@ -58,7 +58,7 @@
 .deals-container {
     width: 802.9px;
     height: 806px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0 auto;
     margin-top: 120px;
 
@@ -164,7 +164,7 @@
     margin: 0 auto;
     margin-top: 120px;
     background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     border-radius: 16px;
 }
 
@@ -184,5 +184,177 @@
     padding: 16px 32px 16px 32px;
     border-radius: 8px;
     color: white;
-
 }
+
+/* End of Party Details Styles. */
+
+/* Start of Offer Styles. */
+.offer-section {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* border: 1px solid blue; */
+}
+
+.offer-container {
+    display: flex;
+}
+
+.offer-details-left {
+    width: 463px;
+    padding-top: 104px;
+}
+
+.first-h1 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.offer-details-left p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.offer-image {
+    max-width: 463px;
+    max-height: 463px;
+    box-sizing: border-box;
+    border: 12px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 38px;
+}
+
+.offer-details-right {
+    padding-top: 110px;
+    padding-left: 130px;
+}
+
+.offer-details-right h1 {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-details-right p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.offer-details-right img {
+    width: 140px;
+    height: 132px;
+}
+
+/* End of Offer Styles. */
+
+/* Start of Holiday Styles. */
+.holiday-sale-section {
+    width: 1068px;
+    max-height: 260px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.holiday-sale h3 {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.holiday-sale h1 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    margin-top: 16px;
+}
+
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/* End of Holiday Styles. */
+
+
+
+
+
+
+/* Start of Portfolio Styles. */
+.portfolio-section {
+    max-width: 1320px;
+    max-height: 1163px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-details h5 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.portfolio-details h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio-details p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+
+.portfolio-image-top {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.portfolio-image-bottom {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.border-create{
+    border: 1px solid black;
+    border-style:dashed;
+}
+
+/* End of Portfolio Styles. */
