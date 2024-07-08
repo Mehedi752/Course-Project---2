@@ -295,9 +295,36 @@
 /* End of Holiday Styles. */
 
 
+/* Start of Design Styles. */
+.design-container {
+    width: 1320px;
+    height: 662.07px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 64px;
+}
 
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: relative;
+    top: 65.5%;
+    /* display: flex; */
+}
 
+.left {
+    position: absolute;
+    bottom: 5%;
+}
 
+.right {
+    position: relative;
+    bottom: 140%;
+    left: 70%;
+}
+
+/* End of Design Styles. */
 
 /* Start of Portfolio Styles. */
 .portfolio-section {
@@ -352,9 +379,76 @@
     border-radius: 16px;
 }
 
-.border-create{
+.border-create {
     border: 1px solid black;
-    border-style:dashed;
+    border-style: dashed;
 }
 
 /* End of Portfolio Styles. */
+
+/* Start of Subscribe Styles.  */
+.subscribe-section {
+    width: 1320px;
+    height: 616px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-container {
+    text-align: center;
+}
+
+.subscribe-container img {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-container h2 {
+    margin-top: 40px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-container p {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe-option {
+    margin-top: 48px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 648px;
+    height: 72px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 25%;
+}
+
+.email {
+    color: rgba(7, 2, 17, 0.3);
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.subscribe-button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: 600;
+    width: 210px;
+    height: 72px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0% 50px 50px 0%;
+}
