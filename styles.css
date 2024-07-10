@@ -452,3 +452,62 @@
     background-color: rgb(255, 0, 0);
     border-radius: 0% 50px 50px 0%;
 }
+/* End of Subscribe Styles.  */
+
+
+/* Start of Footer Styles. */
+.footer-section {
+    width: 1450px;
+    height: 609px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgb(7, 2, 17);
+}
+
+.footer-container {
+    padding: 120px 140px;
+}
+
+.contact-items {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-items p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hr-line {
+    margin: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 1170px;
+    margin-left: 0px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    border: 1px solid white;
+    border-style: dashed;
+    width: 64px;
+    height: 64px;
+    margin: 0px 10px;
+}
+
+.final-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.final-line p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+}
