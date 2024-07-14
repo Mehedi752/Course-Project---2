@@ -390,7 +390,7 @@
 .subscribe-section {
     width: 1320px;
     height: 616px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 120px;
     background-color: rgba(255, 0, 0, 0.05);
@@ -452,6 +452,7 @@
     background-color: rgb(255, 0, 0);
     border-radius: 0% 50px 50px 0%;
 }
+
 /* End of Subscribe Styles.  */
 
 
@@ -459,7 +460,7 @@
 .footer-section {
     width: 1450px;
     height: 609px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 120px;
     background-color: rgb(7, 2, 17);
@@ -510,4 +511,44 @@
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0px;
+        padding: 0 0 10px 10px;
+    }
+
+    .footer-section {
+        width: 1320px;
+    }
+
+    .deals-container {
+        position: relative;
+        left: 48%;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .party-details {
+        padding: 180px 386px 106px 385px;
+    }
+
+    .email{
+        padding-top: 10px;
+    }
+
+    .subscribe-button h3 {
+        padding-top: 25px;
+    }
+
+    .holiday-sale {
+        position: relative;
+        left: 65px;
+    }
+
 }
